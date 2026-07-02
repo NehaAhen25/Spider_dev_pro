@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Billing System</title>
+    <link rel="stylesheet" href="billing.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Simple Billing System</h1>
+
+<input type="text" id="product" placeholder="Product Name">
+
+<input type="number" id="price" placeholder="Price">
+
+<input type="number" id="quantity" placeholder="Quantity">
+
+<button onclick="addProduct()">Add Product</button>
+
+<hr>
+
+<select id="payment">
+    <option>Cash</option>
+    <option>UPI</option>
+    <option>Card</option>
+</select>
+
+<button onclick="generateBill()">
+Generate Bill
+</button>
+
+<div id="bill"></div>
+
+</div>
+
+<script src="biling.js"></script>
+
+</body>
+</html>

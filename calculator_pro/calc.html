@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Result Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Student Result Calculator</h1>
+
+<input type="text" id="name" placeholder="Student Name">
+
+<input type="number" id="sub1" placeholder="Subject 1 Marks">
+<input type="number" id="sub2" placeholder="Subject 2 Marks">
+<input type="number" id="sub3" placeholder="Subject 3 Marks">
+<input type="number" id="sub4" placeholder="Subject 4 Marks">
+<input type="number" id="sub5" placeholder="Subject 5 Marks">
+
+<select id="day">
+    <option value="">Select Day</option>
+    <option>Monday</option>
+    <option>Tuesday</option>
+    <option>Wednesday</option>
+    <option>Thursday</option>
+    <option>Friday</option>
+    <option>Saturday</option>
+    <option>Sunday</option>
+</select>
+
+<button onclick="calculateResult()">
+Calculate Result
+</button>
+
+<div id="output"></div>
+
+</div>
+
+<script src="calc.js"></script>
+
+</body>
+</html>
